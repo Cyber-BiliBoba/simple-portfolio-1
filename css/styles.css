@@ -1,0 +1,239 @@
+@import url("fonts.css");
+
+body {
+  font-family: "Gilroy", "Arial", sans-serif;
+  color: #070707;
+}
+
+.container {
+  max-width: 1001px;
+  margin: 0 auto;
+  padding: 0 29px;
+}
+.header__top {
+  padding: 32px 0 38px 0;
+  border-bottom: 1px solid #828282;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+}
+.header__list-item {
+  flex: 0 0 auto;
+}
+.header__list-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: #828282;
+}
+.header__list-link_bl {
+  color: #070707;
+}
+.header__list-link:active {
+  color: #070707;
+}
+.header__content {
+  padding: 0 0 104px 0;
+}
+.header__content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 30px 0 39px 0;
+}
+.header__content-top-item {
+  flex: 0 0 auto;
+}
+.header__content-title {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+}
+.header__content-burger {
+  display: none;
+}
+.header__content-about {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 48px 13px 0;
+}
+.header__content-lang {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  writing-mode: vertical-lr;
+  transform: rotateZ(180deg);
+  padding: 14px 0 0 0;
+}
+.header__lang_ru {
+  color: #828282;
+}
+.header__content-img {
+  max-width: 100%;
+  width: 100%;
+}
+.about {
+  padding: 118px 0 110px 0;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 34px;
+}
+.about__title {
+  margin: 0 0 27px 0;
+}
+.about__text {
+  max-width: 485px;
+  margin: 0 auto;
+}
+.about__par {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 43px 0;
+}
+.about__par_last {
+  margin: 0 0 0 0;
+}
+.skills {
+  padding: 88px 0 110px 0;
+}
+.skills__top {
+  text-align: center;
+  margin: 0 0 90px 0;
+}
+.skills__title {
+  margin: 0 0 63px 0;
+}
+.skills__par {
+  font-size: 18px;
+  font-weight: 500;
+}
+.skills__content {
+  display: flex;
+  justify-content: space-between;
+}
+.skills__box {
+  flex: 0 0 166px;
+  width: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  min-height: 206px;
+}
+.skills__box-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  max-width: 80px;
+  margin: 21px auto 35px auto;
+}
+.skills__box-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  width: 26px;
+  height: 26px;
+  opacity: 0.12;
+  position: relative;
+
+}
+.star img {
+width: 100%;
+height: 100%;
+object-fit: none;
+position: absolute;
+left: 0;
+top: 0;
+}
+.star_bl {
+  opacity: 1;
+}
+.img__bg {
+  background-color: #442f55;
+}
+.portfolio {
+  text-align: center;
+  padding: 111px 0 98px 0;
+  background-color: #f6f6f6;
+}
+.portfolio__title {
+  margin: 0 0 58px 0;
+}
+.portfolio__item {
+  margin: 0 0 104px 0;
+}
+.portfolio__item:last-of-type {
+  margin: 0;
+}
+.portfolio__img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 42px 0;
+}
+.link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #070707;
+}
+.link,
+.link:hover,
+.link:visited {
+  text-decoration-line: underline;
+}
+.contacts {
+  padding: 112px 0 40px 0;
+  text-align: center;
+}
+.contacts__top {
+  max-width: 275px;
+  margin: 0 auto 33px auto;
+}
+.contacts__title {
+  margin: 0 0 29px 0;
+}
+.contacts__top-par {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin: 0 0 32px 0;
+}
+.contacts__btn {
+  display: inline-block;
+  padding: 12px 29px 12px 29px;
+  margin: 0 0 86px 0;
+  border-radius: 25px;
+  background-color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.contacts__items {
+  margin: 0 auto 44px auto;
+  max-width: 342px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__item {
+  flex: 0 0 auto;
+}
+.contacts__links {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+.contacts__links-par {
+  margin: 0 0 3px 0;
+}
+.contacts__links-item {
+  display: inline-block;
+}
+.contacts__links-link {
+  color: #828282;
+}
